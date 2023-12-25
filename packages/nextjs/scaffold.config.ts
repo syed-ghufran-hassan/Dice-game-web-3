@@ -1,7 +1,7 @@
 import * as chains from "wagmi/chains";
 
 export type ScaffoldConfig = {
-  targetNetwork: chains.Chain;
+  targetNetwork: chains.sepolia;
   pollingInterval: number;
   alchemyApiKey: string;
   walletConnectProjectId: string;
